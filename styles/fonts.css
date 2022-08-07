@@ -5,3 +5,12 @@ html { font-family: 'Inter', sans-serif; }
 @supports (font-variation-settings: normal) {
   html { font-family: 'Inter var', sans-serif; }
 }
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Crete Round', serif;
+  font-size: 100%;
+}
