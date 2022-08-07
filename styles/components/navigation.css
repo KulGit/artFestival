@@ -1,4 +1,4 @@
-@import '../constants/styles.constants.css';
+@import '../constants/color.css';
 
 .navigation {
   width: fit-content;
@@ -6,21 +6,40 @@
   padding: 2rem 2rem 1rem;
 }
 
-.list {
+.navigation-list {
   display: flex;
   align-items: center;
   gap: 2rem;
 }
 
-.item {
+.navigation-item {
   display: inline-block;
+  position: relative;
   width: min-content;
+  padding: 0.6rem;
+  background: var(--colorWhite);
 }
 
-.item_link{
+.navigation-item_link{
   text-decoration: none;
   white-space: nowrap;
   color: var(--colorBlack);
+}
+
+.navigation-item_link:hover {
+  color: var(--colorBrand);
+}
+
+#navigation-page::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -0.1rem;
+  left: -0.1rem;
+  width: calc(100% + 0.2rem);
+  height: calc(100% + 0.2rem);
+  background-image: linear-gradient(var(--colorBrand), var(--colorWhite), var(--colorBrand));
+  z-index: -1;
 }
 
 @media (max-width: 1280px) {
@@ -28,7 +47,7 @@
     padding-top: 2rem;
   }
 
-  .item_link{
+  .navigation-item_link{
     font-size: 2.4rem;
   }
 }
@@ -38,7 +57,7 @@
     padding-top: 1.6rem;
   }
 
-  .item_link{
+  .navigation-item_link{
     font-size: 1.6rem;
   }
 }
@@ -48,7 +67,7 @@
     padding-top: 1rem;
   }
 
-  .item_link{
+  .navigation-item_link{
     font-size: 1.2rem;
   }
 }
