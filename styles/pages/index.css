@@ -1,60 +1,49 @@
-html {
-    box-sizing: border-box;
-}
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-body {
-  font-family: 'Inter';
-  font-size: 29px;
-  font-style: normal;
-  font-weight: 400;
-  color: black;
-}
-.wrapper {
-  display: none;
-    max-width: 1600px;
-    margin: 0 auto;
-}
 .main-block2 {
-    display: grid;
-    grid-template-columns: 640px auto;
-    grid-template-rows: 1280px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .circle-header {
+    display: flex;
+    flex-direction: column;
+
   }
   .circle {
     position: relative;
-    display: flex;
-    flex-direction: row;
     width: 409px;
     height: 409px;
-    left: 56px;
-    top: 144px;
+    margin-left: 56px;
+    margin-top: 144px;
     border-radius: 50%;
     border: 2.5px solid #000000;
   }
-  .square {
+  .circle::before {
     position: absolute;
     width: 37px;
     height: 37px;
-    left: 284px;
-    top: 279px;
+    content: '';
+    display: block;
     background: #904D30;
+    right: 80px;
+    top: 280px;
   }
-  .circle-text {
+  .circle-tittle {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 27px;
     line-height: 34px;
     color: #000000;
-    position: absolute;
-    left: 82px;
-    top: 455px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    padding-left: 30px;
+    max-width: 405px;
+    margin-left: 70px;
   }
   .main-block2-list {
     max-width: 824px;
     margin-top: 108px;
-    padding-right: 50px;
+    margin-left: 120px;
   }
   .main-block2-item {
     font-family: 'Inter';
@@ -68,32 +57,113 @@ body {
   li.main-block2-item:not(:last-child) { 
     margin-bottom: 35px;  
   }
-  /* .main-block2-item ::before {
-    width: 14px;
-    height: 14px;
-    left: 20px;
-    top: 20px;
-    background: #000000;
-  } */
 .main-line {
     display: flex;
     justify-content: flex-end;
-    width: 1036px;
-    height: 9px;
-    margin-top: 50px;
-    margin-bottom: 200px;
-    background: linear-gradient(90deg, #FFFFFF -0.68%, #000000 55.86%, #5C5C5C 98.36%);
+}
+.main-line-gradient {
+  width: 1036px;
+  height: 9px;
+  margin-top: 60px;
+  margin-bottom: 200px;
+  background: linear-gradient(90deg, #FFFFFF -0.68%, #000000 55.86%, #5C5C5C 98.36%);
+  margin-bottom: 310px;
 }
 .main-block3 {
-    display: grid;
-    grid-template-columns: 640px auto;
-    grid-template-rows: 945px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 250px;
+}
+.main-block3-logo {
+  display: flex;
+  flex-direction: column;
 }
 .main-block3-square {
     position: relative;
     width: 193px;
     height: 193px;
     left: 162px;
-    top: 268px;
     background: linear-gradient(90deg, #904D30 -38.08%, #5A5A5A 39.17%, #FAFAFA 100%);
 }
+/* .main-block3-square::after {
+  position: absolute;
+  width: 93px;
+  height: 93px;
+  border-radius: 50%;
+  border: black;
+  top: 300px;
+} */
+.main-block3-tittle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 34px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-top: 30px;
+  padding-left: 30px;
+  max-width: 405px;
+  margin-left: 70px;
+
+}
+.main-block3-list {
+  max-width: 824px;
+  /* margin-top: 108px; */
+  margin-left: 150px;
+}
+.main-block3-item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 29px;
+  line-height: 36px;
+  color: #000000;
+  list-style-type: square;
+}
+li.main-block3-item:not(:last-child) { 
+  margin-bottom: 35px;  
+}
+
+.main-block4 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 250px;
+}
+.main-block4-logo {
+display: flex;
+flex-direction: column;
+}
+.main-block4-figure1 {
+  position: relative;
+  width: 146px;
+  height: 1146px;
+  background-image: url(/img/main_block4_figure1.png);
+}
+.main-block4-figure2 {
+  position: relative;
+  width: 409px;
+  height: 409px;
+  margin-top: 144px;
+  border-radius: 50%;
+  border: 2.5px solid #000000;
+}
+.main-block4-list {
+max-width: 824px;
+margin-left: 150px;
+}
+.main-block4-item {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 29px;
+line-height: 36px;
+color: #000000;
+list-style-type: square;
+}
+li.main-block4-item:not(:last-child) { 
+margin-bottom: 35px;  
+}
+
