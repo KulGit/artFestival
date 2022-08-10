@@ -1,5 +1,8 @@
 :root {
   --colorBlack: #000;
+  --colorBlackLight: #1E1C1C;
   --colorWhite: #fff;
+  --colorGray: #D4CBC7;
   --colorBrand: #904D30;
+  --colorBrandLight: #976F5F;
 }
