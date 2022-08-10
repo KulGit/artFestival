@@ -1,0 +1,158 @@
+@import '../../constants/color.css';
+
+.announcements-section {
+  --size-of-shapes: 22rem;
+
+  position: relative;
+  padding: 4.6rem 6rem 2.8rem;
+  border-bottom: 2px solid var(--colorBlack);
+}
+
+.announcements-section_uppercase {
+  text-transform: uppercase;
+}
+
+/* START of announcements-section-root-header block */
+.announcements-section-root-header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: min-content max-content;
+  grid-template-areas:
+    'logo date date'
+    'logo header .';
+  padding-bottom: 2.4rem;
+  border-bottom: 2px solid var(--colorBlack);
+}
+
+/* BLOCK: 1 */
+.announcements-section-logo {
+  grid-area: logo;
+  background-image: url(./festifal-logo.png);
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+/* BLOCK: 2 */
+.announcements-section-header-content {
+  grid-area: header;
+}
+
+.announcements-section-header {
+  font-size: 6.9rem;
+}
+
+/* BLOCK: 3 */
+.announcements-section-date {
+  grid-area: date;
+  width: calc(100% - var(--size-of-shapes));
+}
+
+.announcements-section-date-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.announcements-section-date-content {
+  font-size: 3.8rem;
+  line-height: 1;
+  letter-spacing: 0.6rem;
+}
+
+.announcements-section-date-time {
+  font-size: 4.8rem;
+}
+
+/* BLOCK: 4 */
+.announcements-section-shapes {
+  position: absolute;
+  width: var(--size-of-shapes);
+  height: var(--size-of-shapes);
+  top: -3rem;
+  right: 0;
+  background-image: url(./group-of-shapes.png);
+  background-repeat: no-repeat;
+}
+/* END of announcements-section-root-header block */
+
+/* START of announcements-section-root-header block */
+.announcements-section-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding-top: 7.2rem;
+}
+
+/* BLOCK:1 */
+.announcements-section-content-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: fit-content;
+  padding-bottom: 4rem;
+}
+
+.announcements-section-content-info-header {
+  display: flex;
+  gap: 3.4rem;
+}
+
+.announcements-section-content-info-header-shape-1 {
+  background-image: url(./info-header-shape-1.png);
+  background-repeat: no-repeat;
+  width: 36.6rem;
+  height: 3.6rem;
+}
+
+.announcements-section-content-info-header-shape-2 {
+  align-self: self-end;
+  width: 3.4rem;
+  height: 3.4rem;
+  background-image: linear-gradient(var(--colorBrand), var(--colorWhite));
+}
+
+.announcements-section-content-info-header-shape-3 {
+  width: 7rem;
+  height: 7rem;
+  background-image: linear-gradient(
+    90deg,
+    var(--colorGray) 14%,
+    var(--colorBrandLight) 40%,
+    var(--colorBlackLight) 70%,
+    var(--colorBrandLight)
+  );
+}
+
+.announcements-section-content-info-content {
+  font-size: 2.8rem;
+}
+
+/* SPONSORS */
+.announcements-section-content-sponsors {
+  display: flex;
+  align-items: baseline;
+  justify-content: end;
+  gap: 2rem;
+  width: 100%;
+}
+
+.announcements-section-content-sponsor-1 {
+  width: 17.2rem;
+  height: 9rem;
+  background-image: url(./sponsor-1.png);
+  background-repeat: no-repeat;
+}
+
+.announcements-section-content-sponsor-2 {
+  width: 6rem;
+  height: 10rem;
+  background-image: url(./sponsor-2.png);
+  background-repeat: no-repeat;
+}
+
+.announcements-section-content-sponsor-3 {
+  width: 9rem;
+  height: 9rem;
+  background-image: url(./sponsor-3.png);
+  background-repeat: no-repeat;
+}
+
+/* END of announcements-section-root-header block */
