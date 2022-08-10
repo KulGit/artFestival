@@ -1,0 +1,756 @@
+@font-face {
+    font-family: "Kharkiv"; 
+    src: url("../../fonts/KharkivTone.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
+.wrapper {
+    max-width: 2100px;
+    margin: 0 auto;
+}
+.wrap {
+    max-width: 1560px;
+    margin: 0 auto;
+}
+.jury-mazo {
+    margin-top: 105px;
+    display: flex;
+    flex-direction: column;
+}
+.jury-mazo-tittle {
+    display: flex;
+    justify-content: flex-start;
+}
+.jury-mazo-logo {
+    padding-left: 60px;
+}
+.jury-mazo-name {
+    position: relative;
+    padding-left: 50px;
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    width: 600px;
+}
+.jury-mazo-name1 {
+    position: absolute;
+    bottom: 0px;
+    left:0px;
+}
+.jury-mazo-line {
+    border: 2.5px solid #000000;
+    margin-bottom: 120px;
+}
+.jury-mazo-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.jury-mazo-main-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+}
+.jury-mazo-main-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.jury-mazo-main-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_mazo.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+.jury-mazo-main-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+    padding-left: 70px;
+    padding-right: 70px;
+    width: 950px;
+}
+.mazo-site-link {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-right: 50px;
+    text-transform: uppercase;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 124.52%;
+    color: #000000;
+}
+
+/* Gilduk css */
+
+.jury-gilduk-line {
+    border: 2.5px solid #000000;
+    margin-bottom: 120px;
+    max-width: 75%;
+}
+.gilduk {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gilduk-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 950px;
+}
+.gilduk-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    padding-top: 270px;
+    padding-bottom: 105px;
+}
+.gilduk-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+}
+.gilduk-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    margin-bottom: 265px;
+}
+.gilduk-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.gilduk-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_gilduk.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+.jury-line-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.jury-line-right-gradient {
+  width: 55%;
+  height: 9px;
+  background: linear-gradient(90deg, #FFFFFF -0.68%, #000000 55.86%, #5C5C5C 98.36%);
+}
+
+/* Mischak css */
+
+.mischak {
+    margin-top: 260px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.mischak-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    top: 210px;
+    margin-bottom: 310px;
+}
+.mischak-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.mischak-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_mischak.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+.mischak-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 900px;
+}
+.mischak-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    margin-bottom: 105px;
+}
+.mischak-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+}
+.jury-line-left {
+    display: flex;
+    justify-content: flex-start;
+}
+.jury-line-left-gradient {
+  width: 55%;
+  height: 9px;
+  background: linear-gradient(90deg, #FFFFFF -0.68%, #000000 55.86%, #5C5C5C 98.36%);
+  transform: rotate(-180deg)
+}
+
+/* Dali css */
+
+.dali {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 115px;
+}
+.dali-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 950px;
+}
+.dali-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    padding-top: 270px;
+    padding-bottom: 105px;
+}
+.dali-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+}
+.dali-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    margin-bottom: 160px;
+}
+.dali-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.dali-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_dali.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+.jury-line-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.jury-line-right-gradient-indent {
+  width: 55%;
+  height: 9px;
+  padding-right: 120px;
+  background: linear-gradient(90deg, #FFFFFF -0.68%, #000000 55.86%, #5C5C5C 98.36%);
+}
+
+/* Bushkov css */
+
+.bushkov {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    margin-top: 300px;
+}
+.bushkov-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    top: 90px;
+    margin-bottom: 40px;
+}
+.bushkov-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.bushkov-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_bushkov.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+.bushkov-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 850px;
+}
+.bushkov-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    margin-bottom: 105px;
+}
+.bushkov-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+}
+
+/* Borozna css */
+
+.pre-borozna-shape {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 215px;
+}
+.pre-borozna-shape-circle {
+    position: relative;
+    width: 205px;
+    height: 205px;
+    border-radius: 50%;
+    border: 2.5px solid #000000;
+}
+.pre-borozna-shape-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+    background: url(../../img/jury_borozna_preshape.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+.borozna {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 300px;
+}
+.borozna-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    top: 300px;
+}
+.borozna-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    background: #ffffffff;
+    z-index: -1;
+}
+.borozna-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_borozna.png);
+    z-index: 1;
+}
+.borozna-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 900px;
+}
+.borozna-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    margin-bottom: 105px;
+}
+.borozna-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+    margin-bottom: 180px;
+}
+
+/* Tarabuko css */
+
+.tarabuko {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.tarabuko-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 950px;
+    gap: 35px;
+}
+.tarabuko-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    padding-top: 55px;
+    padding-bottom: 105px;
+}
+.tarabuko-text-info {
+    position: relative;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+    margin-bottom: 300px;
+}
+.tarabuko-text-info::after {
+    position: absolute;
+    content: "";
+    width: 35px;
+    height: 35px;
+    top: 500px;
+    left: -35px;
+    background: #904D30;
+}
+.tarabuko-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    margin-bottom: 265px;
+}
+.tarabuko-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.tarabuko-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_tarabuko.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+
+/* Duhan css */
+
+.duhan-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    padding-left: 350px;
+}
+.duhan {
+    margin-top: 90px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+.duhan-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    top: -45px;
+}
+.duhan-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.duhan-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_duhan.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+.duhan-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+    max-width: 900px;
+}
+
+/* Vasileva css */
+
+.vasileva {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 300px;
+}
+.vasileva-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    top: 20px;
+    margin-bottom: 120px;
+}
+.vasileva-foto-square {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    background: #ffffffff;
+    z-index: -1;
+}
+.vasileva-foto-square::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_vasileva.png);
+    z-index: 1;
+}
+.vasileva-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 900px;
+}
+.vasileva-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    margin-bottom: 90px;
+}
+.vasileva-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+}
+.post-vasileva-shapes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.post-vasileva-shape1 {
+    position: relative;
+    width: 206px;
+    height: 206px;
+    border: 2.5px solid #000000;
+    margin-bottom: 240px;
+}
+.post-vasileva-shape1::before {
+    position: absolute;
+    content: '';
+    width: 65px;
+    height: 65px;
+    left: -260px;
+    top: -35px;
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.91) 0%, #823412 100%);
+    transform: rotate(-36.45deg);
+}
+.post-vasileva-shape2 {
+    position: absolute;
+    content: '';
+    width: 86px;
+    height: 86px;
+    top: -20%;
+    right: -20%;
+    background: linear-gradient(180deg, #904D30 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+
+
