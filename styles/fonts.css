@@ -14,3 +14,7 @@ body {
   font-family: 'Inter', sans-serif;;
   font-size: 100%;
 }
+
+.font-kharkiv-tone {
+  font-family: Kharkiv Tone, Verdana, Geneva, Tahoma, sans-serif;
+}
