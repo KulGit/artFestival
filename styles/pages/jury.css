@@ -445,13 +445,27 @@
     border-radius: 100%;
     z-index: 1;
 }
+.borozna-name-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    padding-right: 350px;
+}
+.borozna-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+}
 .borozna {
     position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     gap: 60px;
-    margin-top: 300px;
+    margin-top: 30px;
 }
 .borozna-foto {
     position: relative;
@@ -459,7 +473,7 @@
     height: 560px;
     background-image: linear-gradient(#904D30, #FFF, #904D30);
     z-index: -2;
-    top: 300px;
+    top: 80px;
 }
 .borozna-foto-circle {
     content: "";
@@ -490,15 +504,6 @@
     flex-direction: column;
     flex-wrap: nowrap;
     max-width: 900px;
-}
-.borozna-text-name {
-    font-family: 'Kharkiv Tone';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 69px;
-    line-height: 146.52%;
-    color: #000000;
-    margin-bottom: 105px;
 }
 .borozna-text-info {
     font-family: 'Inter';
@@ -750,6 +755,533 @@
     right: -20%;
     background: linear-gradient(180deg, #904D30 0%, rgba(0, 0, 0, 0) 100%);
 }
+
+/* Waterhu css */
+
+.waterhu {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.waterhu-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    top: 115px;
+    margin-bottom: 310px;
+}
+.waterhu-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.waterhu-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_waterhu.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+.waterhu-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 900px;
+}
+.waterhu-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    margin-bottom: 110px;
+}
+.waterhu-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+}
+
+/* Atrashkevich css */
+
+.pre-atrashkevich-shape {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 215px;
+}
+.pre-atrashkevich-shape-square {
+    width: 51px;
+    height: 51px;
+    background: #904D30;
+    margin-right: 280px;
+    margin-bottom: 35px;
+}
+.atrashkevich-name-wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    padding-right: 350px;
+}
+.atrashkevich-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+}
+.atrashkevich {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+    margin-top: 30px;
+    margin-bottom: 180px;
+}
+.atrashkevich-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    top: 0px;
+}
+.atrashkevich-foto-square {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    background: #ffffffff;
+    z-index: -1;
+}
+.atrashkevich-foto-square::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_atrasherich.png);
+    z-index: 1;
+}
+.atrashkevich-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 850px;
+}
+.atrashkevich-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+    padding-top: 30px;
+}
+
+/* Tarabuko css */
+
+.pre-voitik-shapes {
+    display: flex;
+    justify-content: left;
+    margin-left: 170px;
+    margin-bottom: 150px;
+}
+.pre-voitik-shape1 {
+    position: relative;
+    width: 205px;
+    height: 205px;
+    border: 2.5px solid #000000;
+}
+.pre-voitik-shape1::before {
+    position: absolute;
+    content: '';
+    width: 65px;
+    height: 65px;
+    left: 450px;
+    top: 130px;
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.91) 0%, #823412 100%);
+    transform: rotate(-36.45deg);
+}
+.pre-voitik-shape2 {
+    position: absolute;
+    content: '';
+    width: 86px;
+    height: 86px;
+    top: 75%;
+    right: 75%;
+    background: linear-gradient(180deg, #904D30 0%, rgba(0, 0, 0, 0) 100%);
+}
+.voitik {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.voitik-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 950px;
+    gap: 35px;
+}
+.voitik-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    padding-top: 55px;
+    padding-bottom: 80px;
+}
+.voitik-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+    margin-bottom: 300px;
+}
+.voitik-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    margin-bottom: 265px;
+    top: -200px;
+}
+.voitik-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.voitik-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_voitik.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+
+
+/* Kuznecov css */
+
+.kuznecov-background {
+    display: flex;
+    justify-content: flex-start;
+}
+.kuznecov-back {
+    background: url(../../img/jury_kuznecov_figure.png);
+    background-repeat: no-repeat;
+    width: 375px;
+    height: 214px;
+}
+.kuznecov-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    padding-left: 400px;
+    padding-top: 50px;
+    margin-bottom: 150px;
+}
+.kuznecov {
+    margin-top: 0px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+.kuznecov-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    top: 0px;
+    margin-bottom: 310px;
+}
+.kuznecov-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.kuznecov-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_kuznecov.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+.kuznecov-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 900px;
+}
+.kuznecov-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+}
+
+
+/* macaberi css */
+
+.macaberi {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 100px;
+}
+.macaberi-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    border-radius: 100%;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    top: 100px;
+}
+.macaberi-foto-circle {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    border-radius: 100%;
+    background: #ffffffff;
+    z-index: -1;
+}
+.macaberi-foto-circle::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_macabery.png);
+    border-radius: 100%;
+    z-index: 1;
+}
+.macaberi-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 850px;
+}
+.macaberi-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    margin-bottom: 100px;
+}
+.macaberi-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+    margin-bottom: 300px;
+}
+
+
+/* Solertinski css */
+
+.solertin {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+    margin-top: 300px;
+}
+.solertin-foto {
+    position: relative;
+    width: 560px;
+    height: 560px;
+    background-image: linear-gradient(#904D30, #FFF, #904D30);
+    z-index: -2;
+    top: 20px;
+    margin-bottom: 120px;
+}
+.solertin-foto-square {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 555px;
+    height: 555px;
+    background: #ffffffff;
+    z-index: -1;
+}
+.solertin-foto-square::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 480px;
+    height: 480px;
+    background: url(../../img/jury_solertinski.png);
+    z-index: 1;
+}
+.solertin-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    max-width: 900px;
+}
+.solertin-text-name {
+    font-family: 'Kharkiv Tone';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 69px;
+    line-height: 146.52%;
+    color: #000000;
+    margin-bottom: 90px;
+}
+.solertin-text-info {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 124.52%;
+    color: #000000;
+}
+.post-solertin-shapes {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.post-solertin-shape1 {
+    position: relative;
+    width: 206px;
+    height: 206px;
+    border: 2.5px solid #000000;
+    margin-bottom: 240px;
+}
+.post-solertin-shape1::before {
+    position: absolute;
+    content: '';
+    width: 65px;
+    height: 65px;
+    left: -260px;
+    top: -35px;
+    background: linear-gradient(180deg, rgba(26, 26, 26, 0.91) 0%, #823412 100%);
+    transform: rotate(-36.45deg);
+}
+.post-solertin-shape2 {
+    position: absolute;
+    content: '';
+    width: 86px;
+    height: 86px;
+    top: -20%;
+    right: -20%;
+    background: linear-gradient(180deg, #904D30 0%, rgba(0, 0, 0, 0) 100%);
+}
+.line-after-solertin {
+    border: 2.5px solid #000000;
+    margin-bottom: 90px;
+}
+.logo-post-solertin {
+    background: url(../../img/jury_logo_after_solertin.png);
+    height: 220px;
+    width: 340px;
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 130px;
+}
+.wrap-jury-logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
 
 
 
