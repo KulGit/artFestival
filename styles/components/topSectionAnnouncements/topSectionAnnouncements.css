@@ -4,7 +4,7 @@
   --size-of-shapes: 22rem;
 
   position: relative;
-  padding: 4.6rem 6rem 2.8rem;
+  padding: 4.6rem 6rem 0;
   border-bottom: 2px solid var(--colorBlack);
 }
 
@@ -122,16 +122,33 @@
 }
 
 .announcements-section-content-info-content {
+  padding: 1rem 2rem 3rem;
   font-size: 2.8rem;
+}
+
+/* LIST */
+.announcements-section-content-info-list {
+  position: relative;
+  padding: 1.6rem 20% 1.6rem 8rem;
+  font-size: 2.6rem;
+  background-image: linear-gradient(
+    90deg,
+    var(--colorWhite),
+    var(--colorBrandLight),
+    var(--colorBrand),
+    var(--colorWhite)
+  );
+  color: var(--colorWhite);
 }
 
 /* SPONSORS */
 .announcements-section-content-sponsors {
   display: flex;
   align-items: baseline;
-  justify-content: end;
+  justify-content: center;
   gap: 2rem;
   width: 100%;
+  padding-top: 2rem;
 }
 
 .announcements-section-content-sponsor-1 {
@@ -155,4 +172,50 @@
   background-repeat: no-repeat;
 }
 
+.announcements-section-content-info-list-logo {
+  position: absolute;
+  top: 15rem;
+  left: -5rem;
+  width: 12rem;
+  height: 12rem;
+  border: 0.1rem solid var(--colorBlack);
+  border-radius: 100%;
+  background: var(--colorWhite);
+}
+
+.announcements-section-content-info-list-logo::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 42px;
+  left: 42px;
+  width: 3.6rem;
+  height: 3.6rem;
+  background: var(--colorBrand);
+}
+
 /* END of announcements-section-root-header block */
+
+/* START of announcements-section-background */
+.announcements-section-root-background {
+  position: relative;
+}
+
+.announcements-section-background-1 {
+  position: absolute;
+  width: 60vw;
+  height: 100%;
+  left: -10vw;
+
+  background: url('./background-header-1.png') center bottom no-repeat;
+  background-size: contain;
+}
+
+.announcements-section-background-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: url('./background-header-2.png') center top no-repeat;
+  z-index: -1;
+}
+/* EDN of announcements-section-background */
