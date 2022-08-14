@@ -1,0 +1,159 @@
+.wrapper {
+    max-width: 2100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Block 1 participants page CSS */
+
+.partblock1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 370px;
+    margin-top: 150px;
+    margin-bottom: 195px;
+    padding-left: 190px;
+}
+.partblock1-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    color: #000000;
+}
+.partblock1-figure {
+    display: flex;
+    align-items: center;
+}
+.partblock1-figure1 {
+    width: 250px;
+    height: 250px;
+}
+.partblock1-figure1-inside {
+    position: relative;
+    width: 195px;
+    height: 195px;
+    background: linear-gradient(90deg, rgba(244, 244, 244, 0.9754) 0%, rgba(155, 120, 111, 0.9) 8.34%, rgba(116, 99, 95, 0.7933) 14.34%, rgba(79, 79, 79, 0.7) 19.58%, rgba(92, 92, 92, 0.7201) 24.96%, rgba(179, 179, 179, 0.857) 61.67%, rgba(234, 234, 234, 0.9534) 87.52%, #FFFFFF 100%);
+}
+.partblock1-figure1-inside::before {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    border: 1.5px solid #000000;
+    display: block;
+    background: rgb(128, 55, 55);
+    opacity: 0.6;
+    left: 100px;
+    top: 100px;
+}
+.partblock-underline {
+    width: 79%;
+    height: 0px;
+    border: 2.5px solid #000000;
+    transform: rotate(180deg);
+}
+
+/* Block 2 participants page CSS */
+
+.partblock2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+    margin-bottom: 195px;
+    padding-left: 190px;
+}
+.partblock2-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    color: #000000;
+}
+.partblock2-figure {
+    display: flex;
+    align-items: center;
+}
+.partblock2-figure1 {
+    width: 250px;
+    height: 250px;
+}
+.partblock2-figure1-inside {
+    position: relative;
+    width: 195px;
+    height: 195px;
+    background: linear-gradient(90deg, rgba(244, 244, 244, 0.9754) 0%, rgba(155, 120, 111, 0.9) 8.34%, rgba(116, 99, 95, 0.7933) 14.34%, rgba(79, 79, 79, 0.7) 19.58%, rgba(92, 92, 92, 0.7201) 24.96%, rgba(179, 179, 179, 0.857) 61.67%, rgba(234, 234, 234, 0.9534) 87.52%, #FFFFFF 100%);
+}
+.partblock2-figure1-inside::before {
+    position: absolute;
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    border: 1.5px solid #000000;
+    display: block;
+    background: rgb(128, 55, 55);
+    opacity: 0.6;
+    left: 100px;
+    top: 100px;
+}
+.partblock2-underline {
+    width: 79%;
+    height: 0px;
+    border: 2.5px solid #000000;
+    transform: rotate(180deg);
+}
+
+
+/* Block 3 participants page CSS */
+
+.partblock3 {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 150px;
+    margin-bottom: 195px;
+    padding-left: 190px;
+}
+.partblock3-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    color: #000000;
+}
+.partblock3-underline {
+    width: 79%;
+    height: 0px;
+    border: 2.5px solid #000000;
+    transform: rotate(180deg);
+}
+.footer-underline {
+    width: 79%;
+    height: 0px;
+    border: 2.5px solid #000000;
+    transform: rotate(180deg);
+}
+
+/* Footer participants page CSS */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    background: url(../../img/prblock25_background.png) bottom right no-repeat;
+}
+.footer-line {
+    display: flex;
+    justify-content: center;
+}
+.footer-line-end {
+    width: 300px;
+    height: 0px;
+    border: 2.5px solid #000000;
+    transform: rotate(180deg);
+    margin-bottom: 200px;
+}
+
+

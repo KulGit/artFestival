@@ -1,0 +1,45 @@
+.wrapper {
+    max-width: 2100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* Footer contact page CSS */
+
+.contact {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.contact-background {
+    margin-top: 150px;
+    background: linear-gradient(90deg, rgba(244, 244, 244, 0) 0.83%, rgba(225, 225, 225, 0.005) 12.63%, rgba(175, 175, 175, 0.1) 36.62%, rgba(96, 96, 96, 0.2) 70.05%, rgba(107, 100, 99, 0.3) 74.61%, rgba(142, 115, 108, 0.4) 91.11%, rgba(155, 120, 111, 0.4) 100%);
+}
+.footer-underline {
+    width: 79%;
+    height: 0px;
+    border: 2.5px solid #000000;
+    transform: rotate(180deg);
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    background: url(../../img/prblock25_background.png) bottom right no-repeat;
+}
+.footer-line {
+    display: flex;
+    justify-content: center;
+}
+.footer-line-end {
+    width: 300px;
+    height: 0px;
+    border: 2.5px solid #000000;
+    transform: rotate(180deg);
+    margin-bottom: 200px;
+}
