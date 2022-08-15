@@ -43,6 +43,8 @@
 .jury-mazo-line {
     border: 2.5px solid #000000;
     margin-bottom: 120px;
+    margin-left: 85px;
+    width: 680px;
 }
 .jury-mazo-main {
     display: flex;
@@ -199,6 +201,20 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 100px;
+
+}
+.mischak::after {
+    position: absolute;
+    content: "";
+    width: 500px;
+    height: 500px;
+    width: 400px;
+    height: 400px;
+    left: -150px;
+    top: -75px;
+    background: url(../../img/jury_mischak_figure2.png) 100px 0px no-repeat, 
+                url(../../img/jury_mischak_figure3.png) 0px 180px no-repeat;
+
 }
 .mischak-foto {
     position: relative;
@@ -273,10 +289,20 @@
 /* Dali css */
 
 .dali {
+    position: relative;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 115px;
+}
+.dali::after {
+    position: absolute;
+    content: "";
+    width: 1760px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+    background: url(../../img/jury_dali_figure1.png) 100% 0% no-repeat;
 }
 .dali-text {
     display: flex;
