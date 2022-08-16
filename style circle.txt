@@ -1,7 +1,0 @@
-position: relative;
-width: 1146px;
-height: 1146px;
-margin-top: -1149px;
-border-radius: 50%;
-border: 2.5px solid #000000;
-margin-left: -950px;
