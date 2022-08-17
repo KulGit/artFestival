@@ -1,3 +1,9 @@
+@font-face {
+    font-family: "Kharkiv Tone"; 
+    src: url("../../fonts/KharkivTone.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+} 
 .wrapper {
     max-width: 2100px;
     margin: 0 auto;
@@ -825,6 +831,7 @@
     justify-content: center;
     gap: 170px;
     margin-bottom: 220px;
+    margin-top: 150px;
 }
 .block13-text {
     margin-left: 200px;

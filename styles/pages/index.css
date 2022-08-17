@@ -1,3 +1,9 @@
+@font-face {
+  font-family: "Kharkiv Tone"; 
+  src: url("../../fonts/KharkivTone.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
 .wrapper {
   max-width: 2100px;
   margin: 0 auto;
@@ -209,18 +215,18 @@ justify-content: flex-end;
 .main-block5-figure1 {
   position: relative;
   bottom: 0px;
-  width: 922px;
-  height: 922px;
+  width: 822px;
+  height: 822px;
   border: 2.5px solid #000000;
-  top: -30px;
+  top: 75px;
   left: 140px;
 }
 .main-block5-figure1::after {
   position: absolute;
   right: 0;
   content: "";
-  width: 850px;
-  height: 850px;
+  width: 750px;
+  height: 750px;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
